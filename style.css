@@ -1,6 +1,7 @@
 *{
 	font-family: 'Hind', Helvetica, Arial, sans-serif;
 	color: #666666;
+  text-decoration: none;
 }
 
 body {
@@ -43,38 +44,46 @@ body {
 
 
 .text{
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: 400;
-	margin: 20px 20px 60px;
+	margin: 20px 20px;
 }
 
 .text__link{
   text-decoration: none;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
 }
 
 .text__link:hover{
-   /*margin-bottom: 60px;*/
   text-decoration: none;
   color: blue; 
-  }     
+  }  
 
+.text__centerlink:hover{
+  text-decoration: none;
+  color: white; 
+  }  
 
 .centerlink{
+  position: fixed;
+  top: 0px;
+  right: 0px;  
   text-decoration: none;
-	width: 460px;
-	text-align: left;
-	margin-bottom: 0px;
-  margin-top: 40px;
+  font-size: 12px;
+  z-index: 10;
+	width: 360px;
+	text-align: right;
+	padding:20px 20px;
   margin: 20px;
+  background-color: black;
+  color: white;
 }
 
 
 .centerlink:hover {
   /*margin-bottom: 60px;*/
-  text-decoration: none;
-  color: #ffffff;  
+  color: white;  
   background-color:#0000ff;    
 }
 
