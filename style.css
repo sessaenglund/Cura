@@ -24,80 +24,58 @@ body {
  }
 
 @media screen and (min-width: 700px) {
-    .wrapper {
+   
+ .wrapper {
     	max-width: 1450px;
     }
  }
 
-.wrapper__copy{
-	font-weight: 400;
-	line-height: 18px;
-	margin: 0 auto 30px;
-	max-width: 400px;
-	text-align: left;
-}
-
-.wrapper__image{
+.image{
 	width:100%;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
-.wrapper__copy + .wrapper__image,
-.wrapper__image + .wrapper__image {
+.wrapper + .image,
+.image + .image {
 	margin-bottom: 0px;
 }
 
-.wrapper__link{
-	display: block;
-	/*margin-bottom: 60px;*/
-	text-decoration: none;
-}
 
-.wrapper__link .wrapper__image {
-	margin-bottom: 0px;
-}
-
-.wrapper__title{
+.text{
 	font-size: 13px;
 	font-weight: 400;
 	margin: 20px 20px 60px;
 }
 
-.wrapper__centerlink{
-	width: 100%;
+.text__link{
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.text__link:hover{
+   /*margin-bottom: 60px;*/
+  text-decoration: none;
+  color: blue; 
+  }     
+
+
+.centerlink{
+  text-decoration: none;
+	width: 460px;
 	text-align: left;
-	text-decoration: none;
 	margin-bottom: 0px;
+  margin-top: 40px;
+  margin: 20px;
 }
 
-.wrapper__backlink{
-	width: 100%;
-	text-align: left;
-	text-decoration: none;
-	font-size: 22px;
-	margin-left: 20px;
-}
 
-.toplink{
-	display:none;
-	font-size: 22px;
-	text-decoration: none;
-	padding: 15px;
-	position: fixed;
-	right: 0;
-	bottom: 0;
-}
-
-.toplink:hover{
-	color: blue;
-
-}
-
-@media screen and (min-width: 1024px) {
-.toplink{
-	padding: 30px;
-	}
+.centerlink:hover {
+  /*margin-bottom: 60px;*/
+  text-decoration: none;
+  color: #ffffff;  
+  background-color:#0000ff;    
 }
 
 
@@ -106,20 +84,20 @@ body {
    top: 40px;
    right: 40px;
    background-color:#000000;
-   -moz-border-radius:38px;
-   -webkit-border-radius:38px;
-   border-radius:38px;
+   -moz-border-radius:20px;
+   -webkit-border-radius:20px;
+   border-radius:20px;
    display:inline-block;
    cursor:pointer;
    color:#ffffff;
    font-family:Arial;
-   font-size:17px;
-   padding:16px 23px;
+   font-size:12px;
+   padding:20px 20px;
    text-decoration:none;
    }
 
 .roundButton:hover {
-      background-color: #FFFFFF;
+      background-color: blue;
       color: #000000;
       }
 
@@ -129,7 +107,8 @@ body {
    padding-left: 0px;
    }
 
-   .right_col {
+
+.right_col {
    float:left;
    max-width: 300px;
    padding-left: 0px;
