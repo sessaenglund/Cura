@@ -6,8 +6,8 @@
 
 body {
 	margin: 0;
-	font-size: 13px;
-	padding: 60px 15px;
+	font-size: 12px;
+	padding: 20px 20px 20px 20px;
 }
 
 .wrapper {
@@ -46,7 +46,12 @@ body {
 .text{
 	font-size: 12px;
 	font-weight: 400;
-	margin: 20px 20px;
+}
+
+
+.text_bold{
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .text__link{
@@ -72,10 +77,9 @@ body {
   text-decoration: none;
   font-size: 12px;
   z-index: 10;
-	width: 360px;
-	text-align: right;
+	width: 100%;
+	text-align: center;
 	padding:20px 20px;
-  margin: 20px;
   background-color: black;
   color: white;
 }
@@ -88,38 +92,16 @@ body {
 }
 
 
-.roundButton {
-   position: fixed;
-   top: 40px;
-   right: 40px;
-   background-color:#000000;
-   -moz-border-radius:20px;
-   -webkit-border-radius:20px;
-   border-radius:20px;
-   display:inline-block;
-   cursor:pointer;
-   color:#ffffff;
-   font-family:Arial;
-   font-size:12px;
-   padding:20px 20px;
-   text-decoration:none;
-   }
-
-.roundButton:hover {
-      background-color: blue;
-      color: #000000;
-      }
-
 .left_col {
    float:left;
-   max-width: 300px;
-   padding-left: 0px;
+   max-width: 350px;
+   padding-left: 20px;
    }
 
 
 .right_col {
    float:left;
-   max-width: 300px;
-   padding-left: 0px;
+   max-width: 350px;
+   padding-left: 20px;
    }
 
